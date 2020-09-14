@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .update{
+            position: relative;
+            text-align: center;
+            margin: 2px 4px; 
+            padding: 10px 10px;
+            color:#000;
+            background-color: #ccc;
+            border-radius: 10px;
+        }
+        label{
+            position: relative;
+            float: left;
+            margin-left: 35%;
+        }
+        input{
+            padding: 5px 8px;
+            border-radius: 10px;
+            border: 2px 3px 0 6px solid #ccc;
+        }
+        button{
+            margin-top: 5px;
+            padding: 5px 8px;
+            border-radius: 10px;
+            border: 2px 3px 0 6px solid #ccc;
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+   <div class="update">
+        <form action="" method="post">
+            <div>
+                <label for="">Name</label><br>
+                <input type="text" name="" id="Name" value="<?php echo $name; ?>">
+            </div>
+            <div>
+                <label for="">Email</label><br>
+                <input type="email" name="" id="Email" value="<?php echo $email; ?>">
+            </div>
+            <div>
+                <label for="">Phone</label><br>
+                <input type="tel" name="" id="Phone" value="<?php echo $phone; ?>">
+            </div>
+            <div>
+                <label for="">ID</label><br>
+                <input type="text" name="" id="Id" value="<?php echo $id; ?>">
+            </div>
+            <div>
+                <button type="submit" name="update-btn">Update</button>
+            </div>
+        </form>
+   </div>
+</body>
+</html>
