@@ -188,7 +188,7 @@ function batch_write($projectId)
     # Update the population for SF
     $sfRef = $db->collection('cities')->document('SF');
     $batch->update($sfRef, [
-        ['path' => 'population', 'value' => 1000000]
+        ['path' => 'population', 'j ' => 1000000]
     ]);
 
     # Delete LA

@@ -42,7 +42,7 @@ $route->any('/settings', function() {
 $route->any('/logout', function() {
     echo 'Hello World; this is our logout<br>';
 });
-
+// hello
 $route->get('/{username}/{page}', function($username, $page){
     $var = "{$this['username']}/{$this['page']}";
     switch ($var) {
