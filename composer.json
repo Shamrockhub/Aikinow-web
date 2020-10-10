@@ -1,0 +1,7 @@
+{
+    "require": {
+        "firebase/php-jwt": "^5.2",
+        "google/cloud-firestore": "^1.17",
+        "nezamy/route": "^1.3"
+    }
+}

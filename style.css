@@ -1,0 +1,162 @@
+.header{
+    width: 100%;
+    background-color: #e6e6e6;
+    height: 60px;
+    display: auto;
+
+}
+.Tcard{
+    background-color: #bbb;
+}
+.Tcard:hover{
+    background-color: gray;
+    font-weight: bolder;
+}
+.Tcard h2{
+    color: red;
+}
+.Tcard h4{
+    color: #fff;
+}
+
+img{
+    width: 55px;
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 3px;
+    display: flex;
+}
+
+#img2{
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-right: 10px;
+    display: flex;
+}
+
+button{
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    background-color:; 
+    font-size: 20px;
+}
+
+.aside{
+    width: 16%;
+    height: 500px;
+    background-color: #e6e6e6;
+    padding: 20px;
+    clear: both;
+    float: left;
+    margin-right: 20px;
+    display: auto;
+}
+
+.aside1{
+    width: 190px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 0px gray;
+    padding: 5px;
+    display: auto;
+}
+
+#nav a{
+    text-decoration: none;
+    font-size: 18px;
+    opacity: 0.9;
+    text-align: center;
+    display: auto;
+}
+
+.section{
+    width: 81%;
+    margin-top: 10px;
+    display: auto;
+
+}
+
+/*ul{
+    list-style-type: none;
+    outline: none;
+    text-decoration: none;
+}*/
+
+ul li{
+    list-style-type: none;
+    outline: none;
+    text-decoration: none;
+    margin: 8px;
+    font-size: 18px;
+    display: auto;
+}	
+
+#nav a:hover{
+    font-weight: 25px;
+    font-size: 20px;
+    opacity: 1;
+    display: auto;
+}
+
+input{
+    width: 65%;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border-style: solid;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    display: auto;
+}
+
+
+table{
+    border-collapse: collapse;
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 72%;
+    display: auto;
+}
+
+table, th, td{
+    border: 1px solid black;
+    display: auto;
+}
+
+th, td{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: auto;
+}
+
+#delete{
+    background-color: red;
+    padding: 5px 8px;
+    border-radius: 5px;
+    border: none;
+    display: auto;
+    color: white;
+}
+
+#view{
+    background-color: #0099cc;
+    padding: 5px 8px;
+    border-radius: 5px;
+    border: none;
+    display: auto;
+    color: white;
+}
+
+#edit{
+    background-color: #006666;
+    padding: 5px 8px;
+    border-radius: 5px;
+    border: none;
+    display: auto;
+    color: white;
+}
